@@ -36,8 +36,37 @@
 </div>
 
 <form method="get" name="Pedidos" target="_self">
-
-    <input type="submit">
+<div>
+    <fieldset>
+        <legend>¿Qué necesitas?</legend>
+  
+  
+        <select class="form-select" aria-label="Default select example" name="pedido" id="pedido">
+  
+            <option selected disabled>-Seleccionar-</option>
+            <option value="1">Plantas exteriores</option>
+            <option value="2">Jardín interior</option>
+            <option value="3">Paisajismo</option>
+            <option value="4">Plantas exóticas</option>
+            <option value="5">Evento</option>
+            
+            </optgroup>
+  
+  
+  
+        </select>
+    </fieldset>
+</div>
+<div>
+   <label for="date"> ¿Para cuándo lo necesitas? <input type="date" name="date"></label>
+</div>
+    <div>   
+        <label for="Comentario">Cuéntanos más</label>
+        <textarea name="Comment" id="Comment" cols="200">
+        </textarea>
+</div>
+    <div>
+    <input type="submit"></div>
 </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
